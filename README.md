@@ -19,6 +19,15 @@
        * [Jenkinsfile](#Jenkinsfile)
     * [Jenkins Pipeline Creation & Execution](#jenkins-pipeline-creation-&-execution)
 5. [Conclusion](#5-conclusion)
-6. 
+
+---
+
+### **1. Project Overview**
+This project demonstrates the end-to-end automation of a 2-tier web application(Flask + MYSQL) deployment. The infrastructure is hosted on AWS EC2, and the deployment process is containerized using Docker and Docker Compose. A robust CI/CD pipeline,built with jenkins, ensure that code changes are automatically tested and deployed upon pusing to github.
+
+---
+
+### **2. Infrastructure Design**
+![Devops Architecture](images/diagram-export-23-6-2026-2_59_44-PM.png)
 
 
